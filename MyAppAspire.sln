@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppAspire.AppHost", "MyAppAspire.AppHost\MyAppAspire.AppHost.csproj", "{2E626737-5109-487C-A758-64216F8209DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppAspire.ServiceDefaults", "MyAppAspire.ServiceDefaults\MyAppAspire.ServiceDefaults.csproj", "{A3B882CA-A022-3A1C-9E0A-0B1BF36813B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppAspire.ApiService", "MyAppAspire.ApiService\MyAppAspire.ApiService.csproj", "{3A5E3A00-71D1-BDAF-BF8F-FCAC93DC748D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppAspire.Web", "MyAppAspire.Web\MyAppAspire.Web.csproj", "{E4C7ADD1-C227-D4B2-8C01-D8FD7C0AA584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarpGatewayApi", "YarpGatewayApi\YarpGatewayApi.csproj", "{C4E0F22A-41D6-F21C-7AC3-C3462FA52CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiV1", "ApiV1\ApiV1.csproj", "{BE793C1C-E948-E544-010A-77D64393968E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiV2", "ApiV2\ApiV2.csproj", "{4939200E-BFE2-3A4F-5F55-2297C983085C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E626737-5109-487C-A758-64216F8209DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E626737-5109-487C-A758-64216F8209DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E626737-5109-487C-A758-64216F8209DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E626737-5109-487C-A758-64216F8209DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B882CA-A022-3A1C-9E0A-0B1BF36813B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B882CA-A022-3A1C-9E0A-0B1BF36813B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B882CA-A022-3A1C-9E0A-0B1BF36813B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B882CA-A022-3A1C-9E0A-0B1BF36813B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5E3A00-71D1-BDAF-BF8F-FCAC93DC748D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5E3A00-71D1-BDAF-BF8F-FCAC93DC748D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5E3A00-71D1-BDAF-BF8F-FCAC93DC748D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5E3A00-71D1-BDAF-BF8F-FCAC93DC748D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C7ADD1-C227-D4B2-8C01-D8FD7C0AA584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C7ADD1-C227-D4B2-8C01-D8FD7C0AA584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C7ADD1-C227-D4B2-8C01-D8FD7C0AA584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C7ADD1-C227-D4B2-8C01-D8FD7C0AA584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E0F22A-41D6-F21C-7AC3-C3462FA52CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E0F22A-41D6-F21C-7AC3-C3462FA52CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E0F22A-41D6-F21C-7AC3-C3462FA52CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E0F22A-41D6-F21C-7AC3-C3462FA52CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE793C1C-E948-E544-010A-77D64393968E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE793C1C-E948-E544-010A-77D64393968E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE793C1C-E948-E544-010A-77D64393968E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE793C1C-E948-E544-010A-77D64393968E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4939200E-BFE2-3A4F-5F55-2297C983085C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4939200E-BFE2-3A4F-5F55-2297C983085C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4939200E-BFE2-3A4F-5F55-2297C983085C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4939200E-BFE2-3A4F-5F55-2297C983085C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {292DA040-9841-4BEC-869D-A58885F9A25E}
+	EndGlobalSection
+EndGlobal

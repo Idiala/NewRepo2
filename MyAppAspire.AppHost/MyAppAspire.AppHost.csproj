@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>83145882-35d0-48ff-83ec-4d76e7f3c484</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyAppAspire.ApiService\MyAppAspire.ApiService.csproj" />
+    <ProjectReference Include="..\MyAppAspire.Web\MyAppAspire.Web.csproj" />
+	  <ProjectReference Include="..\YarpGatewayApi\YarpGatewayApi.csproj" />
+	  <ProjectReference Include="..\ApiV1\ApiV1.csproj" />
+	  <ProjectReference Include="..\ApiV2\ApiV2.csproj" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
